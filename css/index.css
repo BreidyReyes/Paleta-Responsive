@@ -160,7 +160,6 @@ button {
     background-image: url("/img/bg-grid2.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 290px;
 }
 .titulo-4 {
     display: flex;
@@ -173,6 +172,7 @@ button {
     text-align: justify;
     font-size: 16px;
     height: 100px;
+    padding: 10px;
 }
 .imagen-photo {
     display: flex;
@@ -181,9 +181,13 @@ button {
 }
 .footer {
     background-color: black;
-    color: bisque;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -232,6 +236,14 @@ button {
     }
     .imagen-photo {
         width: 35%;
+    }
+    section {
+        height: 450px;
+    }
+    .seleciones {
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
     }
 
 
